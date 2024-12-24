@@ -1,16 +1,12 @@
 # the_first_flutter_project
 
-A new Flutter project.
+This is a basic flutter project that shows two images in a row and a simple text.
 
-## Getting Started
+**Features:**
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Uses an AppBar with a centered title.
+* Displays a `Column` widget to arrange the content vertically within the body.
+* Uses a `Row` widget to arrange the two images horizontally.
+* Loads an image from the project's assets folder using `Image.assets` widget.
+* Loads an image from the internet using `Image.network` widget.
+* Displays a simple message using a `Text` widget.

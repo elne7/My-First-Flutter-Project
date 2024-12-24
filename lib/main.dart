@@ -11,8 +11,8 @@ class TheFirstFlutterProject extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'The first flutter project',
-      home: HomePage()
+      title: 'The first flutter project', // Giving a title for the project
+      home: HomePage() // Displaying the content of HomePage by calling it
     );
   }
 }
